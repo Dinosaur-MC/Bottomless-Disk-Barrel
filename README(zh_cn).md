@@ -9,10 +9,10 @@
 提供一个更强大的存储系统，使一个容器内最多能存储1600组物品。
 
 ## 添加的物品
-+ 下界合金工作台 ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/BLDB-v2.0-Textures/assets/bldb/textures/block/netherite_crafting_table_front.png)
++ 下界合金工作台 ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/Bottomless%20Disk%20Barrel%20-%20Resourcepack/assets/bldb/textures/block/netherite_crafting_table_front.png)
 + 无底之桶
 + 磁片
-+ 磁针 ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/BLDB-v2.0-Textures/assets/bldb/textures/item/magnetic_needle.png)
++ 磁针 ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/Bottomless%20Disk%20Barrel%20-%20Resourcepack/assets/bldb/textures/item/magnetic_needle.png)
 + 磁盘
 
 ## 支持的合成配方
