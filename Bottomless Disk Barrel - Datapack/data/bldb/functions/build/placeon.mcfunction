@@ -1,0 +1,20 @@
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel] at @s unless block ~ ~ ~ #bldb:empty_space if block ~ ~1 ~ #bldb:empty_space run tp @s ~ ~1 ~
+
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel] at @s unless block ~ ~ ~ #bldb:empty_space run tag @s add freeze
+
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel,tag=!freeze] at @s if entity @p[y_rotation=-135..-45] align y run summon minecraft:armor_stand ~ ~ ~ {Rotation:[90.0f,0.0f],CustomName:'{"text":"BLDB","color":"yellow"}',DisabledSlots:2039583,Small:1b,ShowArms:0b,Invulnerable:1b,NoGravity:1b,NoAI:1b,Invisible:1b,Tags:["BLDBarrel"],HandItems:[],ArmorItems:[{},{},{},{id:"minecraft:wooden_hoe",Count:1b,tag:{IsFakeItem:1b,display:{Name:'{"text":"BLDB block Texture"}'},TempItem:{},HideFlags:63,CustomModelData:7062009}}]}
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel,tag=!freeze] at @s if entity @p[y_rotation=-45..45] align y run summon minecraft:armor_stand ~ ~ ~ {Rotation:[-180.0f,0.0f],CustomName:'{"text":"BLDB","color":"yellow"}',DisabledSlots:2039583,Small:1b,ShowArms:0b,Invulnerable:1b,NoGravity:1b,NoAI:1b,Invisible:1b,Tags:["BLDBarrel"],HandItems:[],ArmorItems:[{},{},{},{id:"minecraft:wooden_hoe",Count:1b,tag:{IsFakeItem:1b,display:{Name:'{"text":"BLDB block Texture"}'},TempItem:{},HideFlags:63,CustomModelData:7062009}}]}
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel,tag=!freeze] at @s if entity @p[y_rotation=45..135] align y run summon minecraft:armor_stand ~ ~ ~ {Rotation:[-90.0f,0.0f],CustomName:'{"text":"BLDB","color":"yellow"}',DisabledSlots:2039583,Small:1b,ShowArms:0b,Invulnerable:1b,NoGravity:1b,NoAI:1b,Invisible:1b,Tags:["BLDBarrel"],HandItems:[],ArmorItems:[{},{},{},{id:"minecraft:wooden_hoe",Count:1b,tag:{IsFakeItem:1b,display:{Name:'{"text":"BLDB block Texture"}'},TempItem:{},HideFlags:63,CustomModelData:7062009}}]}
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel,tag=!freeze] at @s if entity @p[y_rotation=135..-135] align y run summon minecraft:armor_stand ~ ~ ~ {Rotation:[0.0f,0.0f],CustomName:'{"text":"BLDB","color":"yellow"}',DisabledSlots:2039583,Small:1b,ShowArms:0b,Invulnerable:1b,NoGravity:1b,NoAI:1b,Invisible:1b,Tags:["BLDBarrel"],HandItems:[],ArmorItems:[{},{},{},{id:"minecraft:wooden_hoe",Count:1b,tag:{IsFakeItem:1b,display:{Name:'{"text":"BLDB block Texture"}'},TempItem:{},HideFlags:63,CustomModelData:7062009}}]}
+
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel,tag=freeze] at @s run summon minecraft:item ~ ~ ~ {PickupDelay:15s,Motion:[0.0d,0.25d,0.0d],Item:{id:"minecraft:bat_spawn_egg",Count:1b,tag:{CustomModelData:7062009,EntityTag:{Invulnerable:1b,Health:0.1f,Tags:["spawn_BLDBarrel"],NoAI:1b,Silent:1b,CustomName:'{"text":"BLDBarrel","color":"yellow","italic":false}'},Enchantments:[{lvl:1s,id:"minecraft:infinity"}],display:{Name:'{"italic":false,"translate":"BLDB.name.BLDBarrel","color":"yellow"}'}}}}
+
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel] at @s run tp @s ~ -10086 ~
+execute as @e[type=minecraft:bat,tag=spawn_BLDBarrel] run data merge entity @s {Health:0.0f}
+
+
+execute as @e[type=minecraft:armor_stand,tag=BLDBarrel,tag=!working] at @s if entity @p[y_rotation=-135..-45] run setblock ~ ~ ~ minecraft:barrel[facing=west]{CustomName:'{"italic":false,"translate":"BLDB.name.BLDBarrel","color":"yellow"}'}
+execute as @e[type=minecraft:armor_stand,tag=BLDBarrel,tag=!working] at @s if entity @p[y_rotation=-45..45] run setblock ~ ~ ~ minecraft:barrel[facing=north]{CustomName:'{"italic":false,"translate":"BLDB.name.BLDBarrel","color":"yellow"}'}
+execute as @e[type=minecraft:armor_stand,tag=BLDBarrel,tag=!working] at @s if entity @p[y_rotation=45..135] run setblock ~ ~ ~ minecraft:barrel[facing=east]{CustomName:'{"italic":false,"translate":"BLDB.name.BLDBarrel","color":"yellow"}'}
+execute as @e[type=minecraft:armor_stand,tag=BLDBarrel,tag=!working] at @s if entity @p[y_rotation=135..-135] run setblock ~ ~ ~ minecraft:barrel[facing=south]{CustomName:'{"italic":false,"translate":"BLDB.name.BLDBarrel","color":"yellow"}'}
+execute as @e[type=minecraft:armor_stand,tag=BLDBarrel,tag=!working] at @s if block ~ ~ ~ minecraft:barrel run tag @s add working

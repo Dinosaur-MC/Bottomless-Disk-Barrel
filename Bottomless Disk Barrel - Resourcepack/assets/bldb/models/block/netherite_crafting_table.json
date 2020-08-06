@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:block/cube",
+    "display": {
+		"head": {
+			"scale": [ 2.29, 2.29, 2.29 ],
+			"translation": [ 0, -14.65, 0]
+        },
+        "fixed": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 0, 16.16 ],
+			"scale": [ 2.04, 2.04, 2.04 ]
+		}
+    },
+    "textures": {
+        "particle": "bldb:block/netherite_crafting_table_front",
+        "north": "bldb:block/netherite_crafting_table_side",
+        "south": "bldb:block/netherite_crafting_table_front",
+        "east": "bldb:block/netherite_crafting_table_front",
+        "west": "bldb:block/netherite_crafting_table_side",
+        "up": "bldb:block/netherite_crafting_table_top",
+        "down": "bldb:block/netherite_block"
+    }
+}

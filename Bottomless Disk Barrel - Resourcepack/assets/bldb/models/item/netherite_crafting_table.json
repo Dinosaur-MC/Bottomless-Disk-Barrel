@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "bldb:block/netherite_crafting_table_front",
+        "north": "bldb:block/netherite_crafting_table_front",
+        "south": "bldb:block/netherite_crafting_table_side",
+        "east": "bldb:block/netherite_crafting_table_side",
+        "west": "bldb:block/netherite_crafting_table_front",
+        "up": "bldb:block/netherite_crafting_table_top",
+        "down": "bldb:block/netherite_block"
+    }
+}

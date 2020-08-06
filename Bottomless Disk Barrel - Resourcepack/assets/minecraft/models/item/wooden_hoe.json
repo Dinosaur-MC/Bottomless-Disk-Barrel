@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/wooden_hoe"
+	},
+	"overrides":[
+		{"predicate":{"custom_model_data":7062001},"model":"bldb:empty"},
+		{"predicate":{"custom_model_data":7062002},"model":"bldb:gui/home_page1"},
+		{"predicate":{"custom_model_data":7062003},"model":"bldb:gui/home_page2"},
+		{"predicate":{"custom_model_data":7062004},"model":"bldb:gui/home_page3"},
+		{"predicate":{"custom_model_data":7062005},"model":"bldb:button/confirm"},
+		{"predicate":{"custom_model_data":7062006},"model":"bldb:button/next_page"},
+		{"predicate":{"custom_model_data":7062007},"model":"bldb:button/last_page"},
+		{"predicate":{"custom_model_data":7062008},"model":"bldb:block/barrel_on"},
+		{"predicate":{"custom_model_data":7062009},"model":"bldb:block/barrel_off"},
+		{"predicate":{"custom_model_data":7062010},"model":"bldb:block/netherite_crafting_table"},
+		{"predicate":{"custom_model_data":7062011},"model":"bldb:gui/netherite_ct1"},
+		{"predicate":{"custom_model_data":7062012},"model":"bldb:gui/netherite_ct2"},
+		{"predicate":{"custom_model_data":7062013},"model":"bldb:gui/netherite_ct3"}
+	]
+}

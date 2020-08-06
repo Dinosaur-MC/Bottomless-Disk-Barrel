@@ -1,0 +1,3 @@
+execute if entity @s[tag=!disabled_cleaner] run kill @e[type=minecraft:item,distance=..2,nbt={Age:0s},nbt={Item:{tag:{IsTempItem:1b}}}]
+execute run data merge entity @e[limit=1,type=minecraft:item,sort=nearest,distance=..1.5,nbt={Item:{tag:{display:{Name:'{"italic":false,"color":"yellow","translate":"BLDB.name.Netherite_CT"}'}}},Age:0s}] {Item:{id:"minecraft:bat_spawn_egg",Count:1b,tag:{CustomModelData:7062001,EntityTag:{Invulnerable:1b,Health:0.1f,Tags:["spawn_crafting_table"],NoAI:1b,Silent:1b,CustomName:'{"text":"Netherite_CT","color":"yellow","italic":false}'},display:{Name:'{"italic":false,"translate":"BLDB.name.Netherite_CT","color":"yellow"}'}}}}
+kill @s

@@ -1,0 +1,5 @@
+execute if entity @s[tag=!disabled_cleaner] run kill @e[type=minecraft:item,distance=..2,nbt={Age:0s},nbt=!{Item:{tag:{display:{Name:'{"italic":false,"color":"yellow","translate":"BLDB.name.BLDBarrel"}'}}}}]
+execute run data merge entity @e[limit=1,type=minecraft:item,sort=nearest,distance=..1.5,nbt={Item:{tag:{display:{Name:'{"italic":false,"color":"yellow","translate":"BLDB.name.BLDBarrel"}'}}},Age:0s}] {Item:{id:"minecraft:bat_spawn_egg",Count:1b,tag:{CustomModelData:7062009,EntityTag:{Invulnerable:1b,Health:0.1f,Tags:["spawn_BLDBarrel"],NoAI:1b,Silent:1b,CustomName:'{"text":"BLDBarrel","color":"yellow","italic":false}'},Enchantments:[{lvl:1s,id:"minecraft:infinity"}],display:{Name:'{"italic":false,"translate":"BLDB.name.BLDBarrel","color":"yellow"}'}}}}
+execute if data entity @s HandItems[0].id run summon minecraft:item ~ ~ ~ {PickupDelay:2s,Item:{id:"minecraft:wooden_hoe",Count:1b,tag:{IsPuttedOut:1b}},Motion:[0.0d,0.25d,0.0d]}
+execute if data entity @s HandItems[0].id run data modify entity @e[limit=1,sort=nearest,type=minecraft:item,nbt={Item:{tag:{IsPuttedOut:1b}}}] Item set from entity @s HandItems[0]
+kill @s

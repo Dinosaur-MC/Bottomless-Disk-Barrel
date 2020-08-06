@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:item/handheld",
+    "display": {
+		"gui": {
+			"scale": [ 0.7, 0.7, 1 ],
+			"translation": [ 0, 0, 0]
+        },
+        "head": {
+			"scale": [ 0.7, 0.7, 1 ],
+			"translation": [ 0, 0, 0]
+        },
+        "firstperson_lefthand": {
+			"scale": [ 0.7, 0.7, 1 ],
+			"translation": [ 0, 0, 0]
+        },
+        "firstperson_righthand": {
+			"scale": [ 0.7, 0.7, 1 ],
+			"translation": [ 0, 0, 0]
+        },
+        "thirdperson_lefthand": {
+			"scale": [ 0.7, 0.7, 1 ],
+			"translation": [ 0, 0, 0]
+        },
+        "thirdperson_righthand": {
+			"scale": [ 0.7, 0.7, 1 ],
+			"translation": [ 0, 0, 0]
+        },
+        "groud": {
+			"scale": [ 0.7, 0.7, 1 ],
+			"translation": [ 0, 0, 0]
+		}
+    },
+	"textures": {
+		"layer0": "bldb:item/magnetic_needle"
+	}
+}

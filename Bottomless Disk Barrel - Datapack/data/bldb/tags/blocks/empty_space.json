@@ -1,0 +1,15 @@
+{
+    "values":[
+        "minecraft:air",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:dead_bush",
+        "minecraft:fern",
+        "minecraft:large_fern",
+        "minecraft:snow",
+        "minecraft:seagrass",
+        "minecraft:tall_seagrass"
+    ]
+}

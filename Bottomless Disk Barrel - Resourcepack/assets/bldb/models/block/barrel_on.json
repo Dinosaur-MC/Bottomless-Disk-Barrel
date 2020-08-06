@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "bldb:block/bldbarrel",
+    "side": "bldb:block/bldbarrel_side"
+  }
+}
