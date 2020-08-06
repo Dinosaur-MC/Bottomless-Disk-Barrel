@@ -10,10 +10,10 @@
 Provides a more powerful storage system that can store up to 1,600 groups of items in a single container.
 
 ## Added Items
-+ Netherite Crafting Table ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/BLDB-v2.0-Textures/assets/bldb/textures/block/netherite_crafting_table_front.png)
++ Netherite Crafting Table ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/Bottomless%20Disk%20Barrel%20-%20Resourcepack/assets/bldb/textures/block/netherite_crafting_table_front.png)
 + BLDBarrel
 + Magnetic Sheet
-+ Magnetic Needle ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/BLDB-v2.0-Textures/assets/bldb/textures/item/magnetic_needle.png)
++ Magnetic Needle ![pic](https://github.com/Dinosaur-MC/Bottomless-Disk-Barrel/blob/master/Bottomless%20Disk%20Barrel%20-%20Resourcepack/assets/bldb/textures/item/magnetic_needle.png)
 + Data Disk
 
 ## Supported Recipes
